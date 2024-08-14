@@ -2,84 +2,84 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-13T23:18:17 PKT" name="Parallel Test Suite" finished-at="2024-08-13T23:18:31 PKT" duration-ms="14022">
+  <suite started-at="2024-08-14T23:36:59 PKT" name="Parallel Test Suite" finished-at="2024-08-14T23:37:21 PKT" duration-ms="21850">
     <groups>
     </groups>
-    <test started-at="2024-08-13T23:18:17 PKT" name="Sample Test 2" finished-at="2024-08-13T23:18:31 PKT" duration-ms="13391">
+    <test started-at="2024-08-14T23:36:59 PKT" name="Sample Test 2" finished-at="2024-08-14T23:37:20 PKT" duration-ms="20466">
       <class name="com.TestAutomationTalks.demoproject1.SampleTest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:17 PKT" name="setUp" finished-at="2024-08-13T23:18:20 PKT" duration-ms="2862" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:36:59 PKT" name="setUp" finished-at="2024-08-14T23:37:03 PKT" duration-ms="3956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:20 PKT" name="test1" finished-at="2024-08-13T23:18:21 PKT" duration-ms="1377" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:03 PKT" name="test1" finished-at="2024-08-14T23:37:06 PKT" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:21 PKT" name="tearDown" finished-at="2024-08-13T23:18:22 PKT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:06 PKT" name="tearDown" finished-at="2024-08-14T23:37:06 PKT" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:22 PKT" name="setUp" finished-at="2024-08-13T23:18:24 PKT" duration-ms="2568" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:06 PKT" name="setUp" finished-at="2024-08-14T23:37:10 PKT" duration-ms="3452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:24 PKT" name="test2" finished-at="2024-08-13T23:18:27 PKT" duration-ms="2580" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:10 PKT" name="test2" finished-at="2024-08-14T23:37:15 PKT" duration-ms="4913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:27 PKT" name="tearDown" finished-at="2024-08-13T23:18:27 PKT" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:15 PKT" name="tearDown" finished-at="2024-08-14T23:37:15 PKT" duration-ms="439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:27 PKT" name="setUp" finished-at="2024-08-13T23:18:30 PKT" duration-ms="2669" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:15 PKT" name="setUp" finished-at="2024-08-14T23:37:18 PKT" duration-ms="3201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:30 PKT" name="test3" finished-at="2024-08-13T23:18:30 PKT" duration-ms="746" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:18 PKT" name="test3" finished-at="2024-08-14T23:37:20 PKT" duration-ms="1145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@60bd273d]" started-at="2024-08-13T23:18:30 PKT" name="tearDown" finished-at="2024-08-13T23:18:31 PKT" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@2dc54ad4]" started-at="2024-08-14T23:37:20 PKT" name="tearDown" finished-at="2024-08-14T23:37:20 PKT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestAutomationTalks.demoproject1.SampleTest2 -->
     </test> <!-- Sample Test 2 -->
-    <test started-at="2024-08-13T23:18:17 PKT" name="Sample Test 1" finished-at="2024-08-13T23:18:31 PKT" duration-ms="14022">
+    <test started-at="2024-08-14T23:36:59 PKT" name="Sample Test 1" finished-at="2024-08-14T23:37:21 PKT" duration-ms="21850">
       <class name="com.TestAutomationTalks.demoproject1.SampleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:17 PKT" name="setUp" finished-at="2024-08-13T23:18:21 PKT" duration-ms="3853" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:36:59 PKT" name="setUp" finished-at="2024-08-14T23:37:03 PKT" duration-ms="3273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:21 PKT" name="test1" finished-at="2024-08-13T23:18:23 PKT" duration-ms="1459" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:03 PKT" name="test1" finished-at="2024-08-14T23:37:07 PKT" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:23 PKT" name="tearDown" finished-at="2024-08-13T23:18:23 PKT" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:07 PKT" name="tearDown" finished-at="2024-08-14T23:37:07 PKT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:23 PKT" name="setUp" finished-at="2024-08-13T23:18:25 PKT" duration-ms="2643" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:07 PKT" name="setUp" finished-at="2024-08-14T23:37:11 PKT" duration-ms="3847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:25 PKT" name="test2" finished-at="2024-08-13T23:18:28 PKT" duration-ms="2255" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:11 PKT" name="test2" finished-at="2024-08-14T23:37:16 PKT" duration-ms="5192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:28 PKT" name="tearDown" finished-at="2024-08-13T23:18:28 PKT" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:16 PKT" name="tearDown" finished-at="2024-08-14T23:37:17 PKT" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:28 PKT" name="setUp" finished-at="2024-08-13T23:18:30 PKT" duration-ms="2528" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:17 PKT" name="setUp" finished-at="2024-08-14T23:37:20 PKT" duration-ms="3368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:30 PKT" name="test3" finished-at="2024-08-13T23:18:31 PKT" duration-ms="710" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:20 PKT" name="test3" finished-at="2024-08-14T23:37:21 PKT" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@2b91004a]" started-at="2024-08-13T23:18:31 PKT" name="tearDown" finished-at="2024-08-13T23:18:31 PKT" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@57d7f8ca]" started-at="2024-08-14T23:37:21 PKT" name="tearDown" finished-at="2024-08-14T23:37:21 PKT" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

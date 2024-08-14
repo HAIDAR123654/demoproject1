@@ -12,6 +12,7 @@ public class SampleTest {
     @BeforeMethod
     public void setUp() {
         WebDriver driver = MyWebDriverManager.getDriver();
+        driver.manage().window().maximize();
         driver.get("https://google.com");
     }
 
@@ -30,7 +31,7 @@ public class SampleTest {
 		WebDriver driver = MyWebDriverManager.getDriver();
 		System.out.println("Executing testMethod2 on thread: " + Thread.currentThread().threadId());
 		driver.findElement(By.xpath("//a[text()='About']")).click();
-		driver.findElement(By.xpath("//a[contains(text(), 'Learn more')]")).click();
+		driver.findElement(By.xpath("//a[contains(text(), 'Products')]")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
 	}
