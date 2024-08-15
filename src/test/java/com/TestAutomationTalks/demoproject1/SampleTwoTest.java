@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-public class SampleTest2 {
+public class SampleTwoTest {
 
     @BeforeMethod
     public void setUp() {
@@ -17,7 +17,7 @@ public class SampleTest2 {
     }
 
     @Test
-	public void test1() throws InterruptedException {
+	public void test1() {
     	System.out.println("Executing testMetho4 on thread: " + Thread.currentThread().threadId());
     	WebDriver driver = MyWebDriverManager.getDriver();
 		driver.findElement(By.name("q")).sendKeys("selenium", Keys.ENTER);
@@ -27,7 +27,7 @@ public class SampleTest2 {
 	}
 
 	@Test
-	public void test2() throws InterruptedException {
+	public void test2() {
 		System.out.println("Executing testMethod5 on thread: " + Thread.currentThread().threadId());
 		WebDriver driver = MyWebDriverManager.getDriver();
 		driver.findElement(By.xpath("//a[text()='About']")).click();
@@ -37,7 +37,7 @@ public class SampleTest2 {
 	}
 
 	@Test
-	public void test3() throws InterruptedException {
+	public void test3() {
 		System.out.println("Executing testMethod6 on thread: " + Thread.currentThread().threadId());
 		WebDriver driver = MyWebDriverManager.getDriver();
 		driver.get("https://www.saucedemo.com");

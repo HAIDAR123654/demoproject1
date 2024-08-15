@@ -17,7 +17,7 @@ public class SampleTest {
     }
 
     @Test
-	public void test1() throws InterruptedException {
+	public void test1() {
     	WebDriver driver = MyWebDriverManager.getDriver();
     	System.out.println("Executing testMethod1 on thread: " + Thread.currentThread().threadId());
 		driver.findElement(By.name("q")).sendKeys("selenium", Keys.ENTER);
@@ -27,7 +27,7 @@ public class SampleTest {
 	}
 
 	@Test
-	public void test2() throws InterruptedException {
+	public void test2() {
 		WebDriver driver = MyWebDriverManager.getDriver();
 		System.out.println("Executing testMethod2 on thread: " + Thread.currentThread().threadId());
 		driver.findElement(By.xpath("//a[text()='About']")).click();
@@ -37,7 +37,7 @@ public class SampleTest {
 	}
 
 	@Test
-	public void test3() throws InterruptedException {
+	public void test3() {
 		WebDriver driver = MyWebDriverManager.getDriver();
 		System.out.println("Executing testMethod2 on thread: " + Thread.currentThread().threadId());
 		driver.get("https://www.saucedemo.com");
