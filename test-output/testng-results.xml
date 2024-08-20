@@ -1,149 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T23:35:17 PKT" name="Parallel Test Suite" finished-at="2024-08-14T23:35:38 PKT" duration-ms="20619">
+  <suite started-at="2024-08-20T23:42:32 IST" name="Parallel Test Suite" finished-at="2024-08-20T23:42:52 IST" duration-ms="20335">
     <groups>
     </groups>
-    <test started-at="2024-08-14T23:35:17 PKT" name="Sample Test 2" finished-at="2024-08-14T23:35:35 PKT" duration-ms="17743">
-      <class name="com.TestAutomationTalks.demoproject1.SampleTest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:17 PKT" name="setUp" finished-at="2024-08-14T23:35:20 PKT" duration-ms="2840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:20 PKT" name="test1" finished-at="2024-08-14T23:35:23 PKT" duration-ms="2951" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:23 PKT" name="tearDown" finished-at="2024-08-14T23:35:23 PKT" duration-ms="207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:23 PKT" name="setUp" finished-at="2024-08-14T23:35:27 PKT" duration-ms="3523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:27 PKT" name="test2" finished-at="2024-08-14T23:35:30 PKT" duration-ms="3258" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Learn more')]"}
-  (Session info: chrome=127.0.6533.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [50b6c5072d8427a0802d1d5acc416d34, findElement {using=xpath, value=//a[contains(text(), 'Learn more')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62605/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 50b6c5072d8427a0802d1d5acc416d34]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Learn more')]"}
-  (Session info: chrome=127.0.6533.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [50b6c5072d8427a0802d1d5acc416d34, findElement {using=xpath, value=//a[contains(text(), 'Learn more')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.101, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62605/devtoo..., se:cdpVersion: 127.0.6533.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 50b6c5072d8427a0802d1d5acc416d34
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at com.TestAutomationTalks.demoproject1.SampleTest2.test2(SampleTest2.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:30 PKT" name="tearDown" finished-at="2024-08-14T23:35:30 PKT" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:30 PKT" name="setUp" finished-at="2024-08-14T23:35:33 PKT" duration-ms="2329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:33 PKT" name="test3" finished-at="2024-08-14T23:35:35 PKT" duration-ms="2224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest2@4d1bf319]" started-at="2024-08-14T23:35:35 PKT" name="tearDown" finished-at="2024-08-14T23:35:35 PKT" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestAutomationTalks.demoproject1.SampleTest2 -->
-    </test> <!-- Sample Test 2 -->
-    <test started-at="2024-08-14T23:35:17 PKT" name="Sample Test 1" finished-at="2024-08-14T23:35:38 PKT" duration-ms="20619">
+    <test started-at="2024-08-20T23:42:32 IST" name="Sample Test 1" finished-at="2024-08-20T23:42:52 IST" duration-ms="19703">
       <class name="com.TestAutomationTalks.demoproject1.SampleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:17 PKT" name="setUp" finished-at="2024-08-14T23:35:21 PKT" duration-ms="3829" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:32 IST" name="setUp" finished-at="2024-08-20T23:42:40 IST" duration-ms="7868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:21 PKT" name="test1" finished-at="2024-08-14T23:35:23 PKT" duration-ms="2091" status="PASS">
+        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:40 IST" name="test1" finished-at="2024-08-20T23:42:41 IST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:23 PKT" name="tearDown" finished-at="2024-08-14T23:35:24 PKT" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:41 IST" name="tearDown" finished-at="2024-08-20T23:42:41 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:24 PKT" name="setUp" finished-at="2024-08-14T23:35:27 PKT" duration-ms="3399" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:41 IST" name="setUp" finished-at="2024-08-20T23:42:44 IST" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:27 PKT" name="test2" finished-at="2024-08-14T23:35:34 PKT" duration-ms="6825" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:44 IST" name="test2" finished-at="2024-08-20T23:42:48 IST" duration-ms="3867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:34 PKT" name="tearDown" finished-at="2024-08-14T23:35:35 PKT" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:48 IST" name="tearDown" finished-at="2024-08-20T23:42:49 IST" duration-ms="498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:35 PKT" name="setUp" finished-at="2024-08-14T23:35:37 PKT" duration-ms="2181" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:49 IST" name="setUp" finished-at="2024-08-20T23:42:51 IST" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:37 PKT" name="test3" finished-at="2024-08-14T23:35:38 PKT" duration-ms="1201" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:51 IST" name="test3" finished-at="2024-08-20T23:42:52 IST" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@27406a17]" started-at="2024-08-14T23:35:38 PKT" name="tearDown" finished-at="2024-08-14T23:35:38 PKT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTest@76b1e9b8]" started-at="2024-08-20T23:42:52 IST" name="tearDown" finished-at="2024-08-20T23:42:52 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.TestAutomationTalks.demoproject1.SampleTest -->
     </test> <!-- Sample Test 1 -->
+    <test started-at="2024-08-20T23:42:32 IST" name="Sample Test 2" finished-at="2024-08-20T23:42:52 IST" duration-ms="20335">
+      <class name="com.TestAutomationTalks.demoproject1.SampleTwoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:32 IST" name="setUp" finished-at="2024-08-20T23:42:40 IST" duration-ms="7926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:40 IST" name="test1" finished-at="2024-08-20T23:42:41 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:41 IST" name="tearDown" finished-at="2024-08-20T23:42:42 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:42 IST" name="setUp" finished-at="2024-08-20T23:42:44 IST" duration-ms="2561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test2()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:44 IST" name="test2" finished-at="2024-08-20T23:42:49 IST" duration-ms="4602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:49 IST" name="tearDown" finished-at="2024-08-20T23:42:49 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:49 IST" name="setUp" finished-at="2024-08-20T23:42:52 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:52 IST" name="test3" finished-at="2024-08-20T23:42:52 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestAutomationTalks.demoproject1.SampleTwoTest@4f32a3ad]" started-at="2024-08-20T23:42:52 IST" name="tearDown" finished-at="2024-08-20T23:42:52 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestAutomationTalks.demoproject1.SampleTwoTest -->
+    </test> <!-- Sample Test 2 -->
   </suite> <!-- Parallel Test Suite -->
 </testng-results>
